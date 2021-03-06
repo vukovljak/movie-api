@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Movie App</title>
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-video blue"></i> MyMovie<span class="text blue">API</span></h1>
+        <form id="form" class="form">
+            <div class="form-group">
+                <input type="text" id="inputValue" class="form-control" placeholder="Enter a movie name...">
+            </div>
+            <button type="submit" class="btn" id="search">Search a Movie<i class="fas fa-chevron-right"></i></button>
+        </form>
+        <section id="containerMovies" class="container-movies">
+        </section>
+         <div id="movieSearch"></div>
+    </div>
+    <div id="movies-content" class="movie-contents"></div>
+    <footer class="footer">
+        <p>I V &copy; 2021</p>
+    </footer>
+    
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js">
+        </script>
+</body>
+</html>
